@@ -1,26 +1,28 @@
-### ❔ FAQ
+> 🌐 本文档由 [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 翻译,英文原版见原项目。
 
-#### How many free domain names can be registered? 🚀
+### ❔ 常见问题(FAQ)
 
-Currently, the default limit is **1 domain per user account**.
+#### 最多可以注册多少个免费域名?🚀
 
-This policy was updated due to increased domain abuse and to ensure fair usage across the platform. Additional capacity may be introduced in the future through expansion programs or specific use cases, but is not generally available at this time.
+目前默认限制为**每个用户账户 1 个域名**。
 
-You can still create subdomains under your assigned domain via your DNS provider (e.g., `example.foo.us.kg`).
+由于域名滥用行为增多,并为了保证整个平台的公平使用,该政策进行了更新。未来可能通过扩容计划或特定使用场景开放更多额度,但目前暂不普遍提供。
 
-------
-
-#### Which DNS services can I use this domain with?
-
-You can use a DNS service that provides authoritative nameservers for your domain. Enter the assigned NS records in the DigitalPlat FreeDomain panel.
-
-You can also run your own DNS infrastructure if preferred.
-
-DigitalPlat does not endorse or guarantee any third-party DNS service. Review a service's features, security practices, availability, terms, and pricing before using it.
+你仍然可以在 DNS 服务商处,在你获分配的域名下创建子域名(例如 `example.foo.us.kg`)。
 
 ------
 
-#### Do I need to star this project?
+#### 这个域名可以搭配哪些 DNS 服务使用?
 
-It’s not required, but it’s always appreciated 😊
-Stars help more people discover the project and support its growth.
+任何能为你的域名提供权威域名服务器的 DNS 服务都可以使用。在 DigitalPlat FreeDomain 面板中填入获分配的 NS 记录即可。
+
+如果你愿意,也可以自建 DNS 基础设施。
+
+DigitalPlat 不为任何第三方 DNS 服务背书或担保。使用前请自行审查该服务的功能、安全实践、可用性、条款与定价。
+
+------
+
+#### 我需要给这个项目点 Star 吗?
+
+不强制,但一直都很感激 😊
+Star 能让更多人发现这个项目,支持它继续成长。
