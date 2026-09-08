@@ -1,67 +1,69 @@
-# FreeDomain Learning Guide Plan
+> 🌐 本文档由 [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 翻译,英文原版见原项目。
 
-## Goal
+# FreeDomain 学习指南规划
 
-Create a book-length English learning path that begins with the DigitalPlat FreeDomain product, then clearly transitions to general domain, DNS, website, email, security, and operations education.
+## 目标
 
-## Category Boundary
+构建一套成书规模的英文学习路径:从 DigitalPlat FreeDomain 产品入手,再清晰地过渡到通用的域名、DNS、网站、邮箱、安全与运维教育。
 
-### Category A: DigitalPlat FreeDomain
+## 类别边界
 
-Product-specific chapters cover:
+### 类别 A:DigitalPlat FreeDomain
 
-- Account registration
-- FreeDomain registration
-- Submission of external authoritative nameservers
-- Domain status and renewal
-- Registration data and policies
-- Currently documented account and API areas
+产品专属章节涵盖:
 
-DigitalPlat delegates domains to external authoritative nameservers. It does not provide an ordinary DNS record editor. Product chapters must never instruct a reader to create `A`, `AAAA`, `CNAME`, `MX`, `TXT`, or other zone records in DigitalPlat.
+- 账户注册
+- FreeDomain 域名注册
+- 提交外部权威域名服务器
+- 域名状态与续期
+- 注册数据与政策
+- 当前已文档化的账户与 API 功能
 
-### Category B: General Domain and Website Textbook
+DigitalPlat 将域名委派到外部权威域名服务器,本身不提供常规 DNS 记录编辑器。产品章节绝不能指导读者在 DigitalPlat 中创建 `A`、`AAAA`、`CNAME`、`MX`、`TXT` 或其他区域记录。
 
-General chapters cover:
+### 类别 B:通用域名与网站教程
 
-- Internet, terminal, and domain foundations
-- External authoritative DNS records and troubleshooting
-- HTML, CSS, accessibility, and performance
-- Static and dynamic website deployment
-- HTTP, HTTPS, reverse proxies, and certificates
-- Email-related DNS records
-- Backups, monitoring, incidents, and server hardening
-- Architecture, automation, and capacity planning
+通用章节涵盖:
 
-All ordinary DNS record examples belong to the external authoritative DNS service.
+- 互联网、终端与域名基础
+- 外部权威 DNS 记录与故障排查
+- HTML、CSS、无障碍访问与性能
+- 静态与动态网站部署
+- HTTP、HTTPS、反向代理与证书
+- 邮箱相关 DNS 记录
+- 备份、监控、事件与服务器加固
+- 架构、自动化与容量规划
 
-### Integrated Capstone
+所有常规 DNS 记录示例都属于外部权威 DNS 服务。
 
-The capstone connects both categories: DigitalPlat registers and delegates the name; external DNS publishes zone records; the web server hosts the site and HTTPS.
+### 综合毕业项目
 
-## Editorial Principles
+毕业项目连接两个类别:DigitalPlat 负责注册并委派域名;外部 DNS 发布区域记录;Web 服务器托管网站与 HTTPS。
 
-- Assume no previous DNS, terminal, server, or web development experience.
-- Progress from mental models to local labs, public deployment, and advanced operations.
-- Explain the reason before the procedure.
-- Use fictional names and documentation IP ranges.
-- Keep third-party guidance neutral and avoid guarantees.
-- Treat current Dashboard notices, policies, prices, suffixes, limits, and capabilities as authoritative.
-- Never expose passwords, keys, contact data, private domains, balances, or unrelated content in screenshots.
-- Provide observable verification and rollback for operational changes.
-- Include exercises, suggested answers, decision trees, and reusable checklists.
+## 编写原则
 
-## Book Structure
+- 假设读者没有任何 DNS、终端、服务器或 Web 开发经验。
+- 从心智模型逐步推进到本地实验、公开部署和高级运维。
+- 先解释原因,再给出操作步骤。
+- 使用虚构名称和文档专用 IP 段。
+- 对第三方指导保持中立,不做担保。
+- 以当前控制面板通知、政策、价格、后缀、限制和功能为权威依据。
+- 截图中绝不暴露密码、密钥、联系数据、私有域名、余额或无关内容。
+- 为运维变更提供可观察的验证手段和回滚方案。
+- 包含练习题、参考答案、决策树和可复用的检查清单。
 
-1. Category A: DigitalPlat FreeDomain Guide
-2. Category B, Part 0: Beginner Foundations
-3. Part 2: External DNS
-4. Part 3: Website Building and Deployment
-5. Part 4: Email and Service Records
-6. Part 5: Operations and Security
-7. Part 6: Advanced Architecture and Reference
-8. Part 7: Integrated Capstone Project
-9. Appendices: Workbook, Answers, Decision Trees, and Templates
+## 全书结构
 
-## Completion Standard
+1. 类别 A:DigitalPlat FreeDomain 指南
+2. 类别 B 第 0 部分:新手基础
+3. 第 2 部分:外部 DNS
+4. 第 3 部分:网站搭建与部署
+5. 第 4 部分:邮箱与服务记录
+6. 第 5 部分:运维与安全
+7. 第 6 部分:高级架构与参考
+8. 第 7 部分:综合毕业项目
+9. 附录:练习册、答案、决策树与模板
 
-The book is complete when a new reader can identify the product boundary, register a domain, delegate it to external nameservers, manage records at the external DNS service, build and deploy an accessible HTTPS site, operate it safely, complete the capstone, and navigate every chapter through README and the book index.
+## 完成标准
+
+当一位新读者能够:识别产品边界、注册域名、委派到外部域名服务器、在外部 DNS 服务中管理记录、搭建并部署可访问的 HTTPS 网站、安全运维、完成毕业项目,并能通过 README 与全书索引浏览每一章时,本书即告完成。
