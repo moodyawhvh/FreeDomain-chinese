@@ -1,36 +1,38 @@
-# Category A: DigitalPlat FreeDomain Guide
+> 🌐 本文档由 [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 翻译,英文原版见原项目。
 
-This category documents the DigitalPlat FreeDomain product itself. It is intentionally separated from the general DNS and website textbook.
+# 类别 A:DigitalPlat FreeDomain 指南
 
-## Current Product Boundary
+本类别记录 DigitalPlat FreeDomain 产品本身的内容,刻意与通用 DNS 及网站教程分开。
 
-DigitalPlat registers eligible domain names and delegates them to external authoritative nameservers supplied by the user.
+## 当前产品边界
 
-DigitalPlat does not provide a DNS record editor. Records such as `A`, `AAAA`, `CNAME`, `MX`, and `TXT` are created and managed at the external authoritative DNS service, not in the DigitalPlat Dashboard.
+DigitalPlat 注册符合条件的域名,并将其委派到用户提供的外部权威域名服务器。
 
-The Dashboard is used for account, registration, nameserver delegation, domain status, renewal, registration data, and other features currently shown by the product.
+DigitalPlat 不提供 DNS 记录编辑器。`A`、`AAAA`、`CNAME`、`MX`、`TXT` 等记录应在外部权威 DNS 服务中创建和管理,而不是在 DigitalPlat 控制面板中。
 
-## Chapters
+控制面板用于账户、注册、域名服务器委派、域名状态、续期、注册数据以及产品当前展示的其他功能。
 
-1. [About the FreeDomain Project](./project-overview.md)
-2. [Dashboard Tour](./dashboard-tour.md)
-3. [What DigitalPlat Does](./1.0-product-boundaries.md)
-4. [Create a DigitalPlat Account](./1.1-account-registration.md)
-5. [Register a FreeDomain Name](./1.2-domain-registration.md)
-6. [Connect External Nameservers](./1.3-connect-nameservers.md)
-7. [Check Status and Renew](./1.4-status-and-renewal.md)
-8. [Manage Account Data and Policies](./1.5-account-and-policies.md)
-9. [Use the API Safely](./1.6-api-overview.md)
+## 章节
 
-## Product Completion Check
+1. [关于 FreeDomain 项目](./project-overview.md)
+2. [控制面板导览](./dashboard-tour.md)
+3. [DigitalPlat 做什么](./1.0-product-boundaries.md)
+4. [创建 DigitalPlat 账户](./1.1-account-registration.md)
+5. [注册免费域名](./1.2-domain-registration.md)
+6. [接入外部域名服务器](./1.3-connect-nameservers.md)
+7. [查看状态与续期](./1.4-status-and-renewal.md)
+8. [管理账户数据与策略](./1.5-account-and-policies.md)
+9. [安全使用 API](./1.6-api-overview.md)
 
-Before moving to the general textbook:
+## 产品环节完成检查
 
-- The account can sign in.
-- The domain appears in Domain List.
-- The external DNS zone exists.
-- DigitalPlat delegates the domain to the assigned external nameservers.
-- `dig NS` returns the intended nameservers.
-- The reader understands that all ordinary DNS records are managed outside DigitalPlat.
+进入通用教程之前,确认:
 
-Continue to [About the FreeDomain Project](./project-overview.md).
+- 账户可以登录。
+- 域名出现在 Domain List 中。
+- 外部 DNS 区域已创建。
+- DigitalPlat 已把域名委派到指定的外部域名服务器。
+- `dig NS` 返回预期的域名服务器。
+- 你已理解:所有常规 DNS 记录都在 DigitalPlat 之外管理。
+
+继续阅读[关于 FreeDomain 项目](./project-overview.md)。

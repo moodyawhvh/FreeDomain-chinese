@@ -1,93 +1,95 @@
-# Dashboard Tour
+> 🌐 本文档由 [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) 翻译,英文原版见原项目。
 
-The Dashboard organizes registration and account tasks. Exact labels and available areas may change with the account and current product version.
+# 控制面板导览
 
-## Dashboard Overview
+控制面板用于组织注册与账户任务。具体标签和可用区域可能随账户和当前产品版本变化。
 
-The overview can contain:
+## 面板总览
 
-- Platform and namespace notices
-- Account and slot summaries
-- Domains approaching expiration
-- Registration contact data
-- Links to important actions
+总览页可能包含:
 
-Read notices before registering or renewing. A notice can change the safe next step even when an older tutorial describes a different workflow.
+- 平台与命名空间通知
+- 账户与名额摘要
+- 即将到期的域名
+- 注册联系数据
+- 重要操作的入口链接
 
-## Domain List
+注册或续期前先阅读通知。即使旧教程描述的是另一套流程,一条通知也可能改变当前安全的下一步操作。
 
-Use Domain List to verify:
+## Domain List(域名列表)
 
-- The complete registered name
-- Current registration status
-- Expiration date
-- Available management actions
+用 Domain List 核对:
 
-Domain List proves the registration account's state. It does not prove that an external DNS record exists.
+- 完整的已注册名称
+- 当前注册状态
+- 到期日期
+- 可用的管理操作
 
-## Register
+Domain List 证明注册账户的状态,但不能证明外部 DNS 记录存在。
 
-The registration area can include:
+## Register(注册)
 
-- Current policy links
-- Name and suffix selection
-- Availability checking
-- Slot or charge information
-- Policy acknowledgement
-- External nameserver submission
+注册区域可能包括:
 
-Review the complete domain and current conditions before the final action.
+- 当前政策链接
+- 名称与后缀选择
+- 可用性检查
+- 名额或付费信息
+- 政策确认
+- 外部域名服务器提交
 
-## WHOIS Lookup and Account Data
+在最终操作前,完整核对域名和当前条件。
 
-Lookup and account settings can help review registration data and contact information. Public visibility and editable fields depend on current policy and namespace behavior.
+## WHOIS 查询与账户数据
 
-Never publish a screenshot of the account section without removing personal data.
+查询和账户设置可用于核对注册数据与联系信息。公开可见性和可编辑字段取决于当前政策与命名空间的行为。
 
-## API Areas
+绝不要在未抹除个人数据的情况下发布账户区域的截图。
 
-When API Keys and API Documentation are available, use the current documentation. The DigitalPlat API and an external DNS provider's API are separate. A DigitalPlat key must not be assumed to edit external zone records.
+## API 区域
 
-## Search and Navigation
+当 API Keys 和 API Documentation 可用时,以当前文档为准。DigitalPlat API 与外部 DNS 服务商的 API 是相互独立的。不要假设 DigitalPlat 的密钥能编辑外部区域记录。
 
-Dashboard search can help locate product actions. Search results do not grant additional capability; the resulting page and current documentation define what the feature actually supports.
+## 搜索与导航
 
-## A Safe Dashboard Routine
+控制面板搜索可以帮助定位产品功能。搜索结果不会赋予额外能力;目标页面和当前文档才定义该功能实际支持什么。
 
-Before a state-changing action:
+## 安全的面板操作流程
 
-1. Confirm the signed-in account.
-2. Read the notice board.
-3. Open the exact domain.
-4. Record the current state.
-5. Review the intended state.
-6. Check policy, slot, and charge information.
-7. Submit once.
-8. Return to the authoritative page and verify the result.
+执行会改变状态的操作前:
 
-## Screenshot Safety
+1. 确认当前登录的账户。
+2. 阅读通知栏。
+3. 打开确切的域名。
+4. 记录当前状态。
+5. 核对目标状态。
+6. 检查政策、名额与付费信息。
+7. 只提交一次。
+8. 回到权威页面验证结果。
 
-Crop screenshots to the smallest interface area needed to explain the action. Exclude:
+## 截图安全
 
-- Browser address bar
-- Full name and address
-- Email and phone number
-- Account ID
-- Balances and unrelated subscription data
-- Private domains
-- API keys, cookies, and session values
-- Unrelated tabs or applications
+截图应裁剪到解释操作所需的最小界面区域。排除以下内容:
 
-## Dashboard Exercise
+- 浏览器地址栏
+- 全名与地址
+- 邮箱与电话号码
+- 账户 ID
+- 余额及无关订阅数据
+- 私有域名
+- API 密钥、Cookie 与会话值
+- 无关的标签页或应用程序
 
-Without changing anything, locate:
+## 面板练习
 
-1. Current notices
+在不改动任何内容的前提下,找到:
+
+1. 当前通知
 2. Domain List
-3. Registration
-4. Account settings
-5. API documentation, when available
+3. 注册入口
+4. 账户设置
+5. API 文档(如可用)
 
-For each area, write whether it controls registration state, account data, nameserver delegation, or documentation.
+针对每个区域,写下它控制的是注册状态、账户数据、域名服务器委派,还是文档。
 
-Continue to [What DigitalPlat Does](./1.0-product-boundaries.md).
+继续阅读 [DigitalPlat 做什么](./1.0-product-boundaries.md)。
